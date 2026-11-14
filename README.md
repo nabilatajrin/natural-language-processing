@@ -1,43 +1,53 @@
-# Natural Language Processing Projects
+# Natural Language Processing
 
-> Collection of NLP experiments, models, and applications built with modern techniques.
+> NLP experiments, coursework, and practice projects.
 
-## Overview
-This repository contains various NLP projects covering text classification, sentiment analysis, named entity recognition, machine translation, and more.
-
-## Projects Included
-- Text Classification
-- Sentiment Analysis
-- Question Answering
-- Language Models & Fine-tuning
-
-## Tech Stack
-- Python
-- Hugging Face Transformers
-- NLTK / spaCy
-- PyTorch / TensorFlow
-- Scikit-learn
-
-## Installation
-```bash
-git clone https://github.com/nabilatajrin/natural-language-processing.git
-cd natural-language-processing
-pip install -r requirements.txt
-```
-
-## Usage
-See individual project folders for specific instructions.
-
-## Learnings
-- Tokenization and preprocessing techniques
-- Transfer learning with pretrained models
-- Evaluation metrics for NLP tasks
-
-## Future Work
-- Build production-ready RAG systems
-- Multilingual NLP applications
+**Author:** [Nabila Tajrin](https://github.com/nabilatajrin)
 
 ---
 
-**License**  
-MIT © [Nabila Tajrin](https://github.com/nabilatajrin)
+## Contents
+
+| Folder | Description |
+|--------|-------------|
+| [`01-introduction-to-natural-language-processing-in-python`](01-introduction-to-natural-language-processing-in-python/) | DataCamp-style intro: regex, tokenization, NER, fake-news classifier |
+| [`02-text-preprocessing`](02-text-preprocessing/) | **Experiment 01** — full text preprocessing pipeline (tokenize, stopwords, stem, lemma, POS, n-grams, word cloud) |
+
+---
+
+## Experiment 01 — Text Preprocessing
+
+Organized lab code (cleaned & runnable locally):
+
+```text
+02-text-preprocessing/
+├── README.md
+├── requirements.txt
+├── data/ai_sample.txt
+├── part_a_single_sentence.py
+└── part_b_document_analysis.py
+```
+
+```bash
+cd 02-text-preprocessing
+pip install -r requirements.txt
+python part_a_single_sentence.py
+python part_b_document_analysis.py
+```
+
+Original lab PDF / notebook remain at the repo root for reference.
+
+---
+
+## Tech stack
+
+- Python 3
+- NLTK
+- Matplotlib / Seaborn
+- WordCloud
+
+---
+
+## License
+
+MIT © Nabila Tajrin
