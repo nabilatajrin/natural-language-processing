@@ -1,0 +1,11 @@
+The Evolution of Artificial Intelligence
+
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and act like humans. The concept of AI has been around for centuries, with its roots tracing back to ancient myths and stories about mechanical beings capable of performing human-like tasks. However, the modern field of AI as we know it began in the 20th century, with advances in computer science, mathematics, and logic.
+
+In the early days of computing, researchers explored whether machines could exhibit intelligent behavior. Alan Turing proposed the famous Turing Test as a criterion of intelligence. In 1956, the Dartmouth Conference marked the official birth of artificial intelligence as a field. Early AI systems focused on symbolic reasoning, logic, and problem solving.
+
+Over the decades, AI progressed through cycles of optimism and setbacks known as AI winters. Expert systems were popular in the 1980s. Later, machine learning, statistical methods, and neural networks transformed the field. The rise of deep learning, large datasets, and powerful computing enabled breakthroughs in computer vision, speech recognition, and natural language processing.
+
+Today, AI systems power search engines, recommendation systems, virtual assistants, autonomous vehicles, and medical diagnosis tools. Researchers continue to study learning algorithms, language models, ethical implications, and the challenge of creating systems that can generalize across tasks. Human-level intelligence remains a long-term goal, while practical AI already shapes industry, research, and daily life.
+
+Key themes include machine learning, data, language, tasks, human intelligence, neural networks, algorithms, and the development of systems that can recognize patterns and make decisions. AI systems can learn from data, automate tasks, and support decision making in many domains.
