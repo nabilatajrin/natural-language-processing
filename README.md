@@ -11,22 +11,12 @@
 | Folder | Description |
 |--------|-------------|
 | [`01-introduction-to-natural-language-processing-in-python`](01-introduction-to-natural-language-processing-in-python/) | DataCamp-style intro: regex, tokenization, NER, fake-news classifier |
-| [`02-text-preprocessing`](02-text-preprocessing/) | **Experiment 01** — full text preprocessing pipeline (tokenize, stopwords, stem, lemma, POS, n-grams, word cloud) |
+| [`02-text-preprocessing`](02-text-preprocessing/) | **Experiment 01** — tokenize, stopwords, stem, lemma, POS, n-grams, word cloud |
+| [`04-zipfs-law`](04-zipfs-law/) | **Experiment 04** — Zipf's Law: rank–frequency, log–log plot, top words, cumulative distribution |
 
 ---
 
 ## Experiment 01 — Text Preprocessing
-
-Organized lab code (cleaned & runnable locally):
-
-```text
-02-text-preprocessing/
-├── README.md
-├── requirements.txt
-├── data/ai_sample.txt
-├── part_a_single_sentence.py
-└── part_b_document_analysis.py
-```
 
 ```bash
 cd 02-text-preprocessing
@@ -35,16 +25,26 @@ python part_a_single_sentence.py
 python part_b_document_analysis.py
 ```
 
-Original lab PDF / notebook remain at the repo root for reference.
+---
+
+## Experiment 04 — Zipf's Law
+
+```bash
+cd 04-zipfs-law
+pip install -r requirements.txt
+python zipfs_law.py
+```
+
+Post-lab answers: [`04-zipfs-law/post_lab_answers.md`](04-zipfs-law/post_lab_answers.md)
 
 ---
 
 ## Tech stack
 
 - Python 3
-- NLTK
+- NLTK, NumPy, Pandas, SciPy
 - Matplotlib / Seaborn
-- WordCloud
+- WordCloud, contractions
 
 ---
 
