@@ -13,7 +13,8 @@
 | [`01-introduction-to-natural-language-processing-in-python`](01-introduction-to-natural-language-processing-in-python/) | DataCamp-style intro: regex, tokenization, NER, fake-news classifier |
 | [`02-text-preprocessing`](02-text-preprocessing/) | **Experiment 01** — tokenize, stopwords, stem, lemma, POS, n-grams, word cloud |
 | [`03-assignment-02-pos-parsing`](03-assignment-02-pos-parsing/) | **Assignment 02** — HMM/Viterbi POS, CYK parsing, oracle, smart-home logic |
-| [`04-zipfs-law`](04-zipfs-law/) | **Experiment 04** — Zipf's Law: rank–frequency, log–log plot, top words, cumulative |
+| [`04-zipfs-law`](04-zipfs-law/) | **Experiment 04** — Zipf's Law: rank–frequency, log–log plot, top words |
+| [`07-word2vec-vs-bert-embeddings`](07-word2vec-vs-bert-embeddings/) | **Experiment 07** — Word2Vec vs transformer similarity + resume semantic search |
 
 ---
 
@@ -37,8 +38,6 @@ python 02_viterbi_pos_tagging.py
 python 03_cyk_parser.py
 ```
 
-Theory: `04_oracle_pp_attachment.md`, `05_smart_home_logic.md`
-
 ---
 
 ## Experiment 04 — Zipf's Law
@@ -49,15 +48,27 @@ pip install -r requirements.txt
 python zipfs_law.py
 ```
 
-Post-lab: [`04-zipfs-law/post_lab_answers.md`](04-zipfs-law/post_lab_answers.md)
+---
+
+## Experiment 07 — Embeddings & Semantic Search
+
+```bash
+cd 07-word2vec-vs-bert-embeddings
+pip install -r requirements.txt
+python 01_word2vec_vs_bert_similarity.py
+python 02_resume_semantic_search.py
+```
+
+Post-lab: [`07-word2vec-vs-bert-embeddings/post_lab_answers.md`](07-word2vec-vs-bert-embeddings/post_lab_answers.md)
 
 ---
 
 ## Tech stack
 
 - Python 3
-- NLTK, NumPy, Pandas, SciPy
+- NLTK, NumPy, Pandas, SciPy, scikit-learn
 - Matplotlib / Seaborn
+- Gensim, sentence-transformers
 - WordCloud, contractions
 
 ---
