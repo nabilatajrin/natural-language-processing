@@ -14,6 +14,7 @@
 | [`02-text-preprocessing`](02-text-preprocessing/) | **Experiment 01** — tokenize, stopwords, stem, lemma, POS, n-grams, word cloud |
 | [`03-assignment-02-pos-parsing`](03-assignment-02-pos-parsing/) | **Assignment 02** — HMM/Viterbi POS, CYK parsing, oracle, smart-home logic |
 | [`04-zipfs-law`](04-zipfs-law/) | **Experiment 04** — Zipf's Law: rank–frequency, log–log plot, top words |
+| [`05-handle-unstructured-data`](05-handle-unstructured-data/) | **Experiment 02** — unstructured text pipeline (tokenize → NER → WordNet) |
 | [`07-word2vec-vs-bert-embeddings`](07-word2vec-vs-bert-embeddings/) | **Experiment 07** — Word2Vec vs transformer similarity + resume semantic search |
 
 ---
@@ -26,6 +27,18 @@ pip install -r requirements.txt
 python part_a_single_sentence.py
 python part_b_document_analysis.py
 ```
+
+---
+
+## Experiment 02 — Handle Unstructured Data
+
+```bash
+cd 05-handle-unstructured-data
+pip install -r requirements.txt
+python process_unstructured_text.py
+```
+
+Post-lab: [`05-handle-unstructured-data/post_lab_answers.md`](05-handle-unstructured-data/post_lab_answers.md)
 
 ---
 
@@ -58,8 +71,6 @@ pip install -r requirements.txt
 python 01_word2vec_vs_bert_similarity.py
 python 02_resume_semantic_search.py
 ```
-
-Post-lab: [`07-word2vec-vs-bert-embeddings/post_lab_answers.md`](07-word2vec-vs-bert-embeddings/post_lab_answers.md)
 
 ---
 
