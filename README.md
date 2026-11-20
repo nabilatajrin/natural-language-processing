@@ -15,6 +15,7 @@
 | [`03-assignment-02-pos-parsing`](03-assignment-02-pos-parsing/) | **Assignment 02** — HMM/Viterbi POS, CYK parsing, oracle, smart-home logic |
 | [`04-zipfs-law`](04-zipfs-law/) | **Experiment 04** — Zipf's Law: rank–frequency, log–log plot, top words |
 | [`05-handle-unstructured-data`](05-handle-unstructured-data/) | **Experiment 02** — unstructured text pipeline (tokenize → NER → WordNet) |
+| [`06-minimum-edit-distance`](06-minimum-edit-distance/) | **Experiment 03** — Levenshtein minimum edit distance (DP) |
 | [`07-word2vec-vs-bert-embeddings`](07-word2vec-vs-bert-embeddings/) | **Experiment 07** — Word2Vec vs transformer similarity + resume semantic search |
 
 ---
@@ -38,7 +39,16 @@ pip install -r requirements.txt
 python process_unstructured_text.py
 ```
 
-Post-lab: [`05-handle-unstructured-data/post_lab_answers.md`](05-handle-unstructured-data/post_lab_answers.md)
+---
+
+## Experiment 03 — Minimum Edit Distance
+
+```bash
+cd 06-minimum-edit-distance
+python minimum_edit_distance.py
+```
+
+Post-lab: [`06-minimum-edit-distance/post_lab_answers.md`](06-minimum-edit-distance/post_lab_answers.md)
 
 ---
 
