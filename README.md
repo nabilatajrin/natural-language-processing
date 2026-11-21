@@ -17,6 +17,7 @@
 | [`05-handle-unstructured-data`](05-handle-unstructured-data/) | **Experiment 02** — unstructured text pipeline (tokenize → NER → WordNet) |
 | [`06-minimum-edit-distance`](06-minimum-edit-distance/) | **Experiment 03** — Levenshtein minimum edit distance (DP) |
 | [`07-word2vec-vs-bert-embeddings`](07-word2vec-vs-bert-embeddings/) | **Experiment 07** — Word2Vec vs transformer similarity + resume semantic search |
+| [`08-bag-of-words`](08-bag-of-words/) | **Experiment 05** — Bag of Words + TF-IDF |
 
 ---
 
@@ -48,7 +49,17 @@ cd 06-minimum-edit-distance
 python minimum_edit_distance.py
 ```
 
-Post-lab: [`06-minimum-edit-distance/post_lab_answers.md`](06-minimum-edit-distance/post_lab_answers.md)
+---
+
+## Experiment 05 — Bag of Words
+
+```bash
+cd 08-bag-of-words
+pip install -r requirements.txt
+python bag_of_words.py
+```
+
+Post-lab: [`08-bag-of-words/post_lab_answers.md`](08-bag-of-words/post_lab_answers.md)
 
 ---
 
