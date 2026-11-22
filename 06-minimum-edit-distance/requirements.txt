@@ -1,1 +1,0 @@
-# Pure Python 3 — no third-party packages required.

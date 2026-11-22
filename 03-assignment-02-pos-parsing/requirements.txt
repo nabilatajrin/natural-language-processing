@@ -1,3 +1,0 @@
-# Pure Python for the algorithms in this assignment.
-# Optional: only if you extend the demos with NLTK later.
-# nltk>=3.8

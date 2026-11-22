@@ -1,5 +1,0 @@
-Ada Lovelace is often regarded as the first computer programmer. She worked with Charles Babbage on the Analytical Engine in the nineteenth century. Her notes on the engine included an algorithm intended to be processed by a machine. She wrote about how the engine could compose music and create graphics, ideas far ahead of her time.
-
-Modern computer science still cites her vision. Universities name laboratories and scholarships after Ada Lovelace. Every year, Ada Lovelace Day celebrates women in science, technology, engineering, and mathematics. Historians note that her mathematical training and creative imagination helped her see beyond pure calculation.
-
-Although the Analytical Engine was never fully built in her lifetime, her work inspired later generations of programmers and engineers. Textbooks and online articles frequently describe her as a pioneer of computing and of algorithmic thinking.
