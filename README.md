@@ -18,6 +18,7 @@
 | [`06-minimum-edit-distance`](06-minimum-edit-distance/) | **Experiment 03** — Levenshtein minimum edit distance (DP) |
 | [`07-word2vec-vs-bert-embeddings`](07-word2vec-vs-bert-embeddings/) | **Experiment 07** — Word2Vec vs transformer similarity + resume semantic search |
 | [`08-bag-of-words`](08-bag-of-words/) | **Experiment 05** — Bag of Words + TF-IDF |
+| [`09-parsing`](09-parsing/) | **Experiment 06** — CFG constituency parsing |
 
 ---
 
@@ -59,7 +60,17 @@ pip install -r requirements.txt
 python bag_of_words.py
 ```
 
-Post-lab: [`08-bag-of-words/post_lab_answers.md`](08-bag-of-words/post_lab_answers.md)
+---
+
+## Experiment 06 — Parsing
+
+```bash
+cd 09-parsing
+pip install -r requirements.txt
+python parsing_demo.py
+```
+
+Post-lab: [`09-parsing/post_lab_answers.md`](09-parsing/post_lab_answers.md)
 
 ---
 
