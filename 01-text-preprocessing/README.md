@@ -1,14 +1,16 @@
 # Experiment 01 — Text Preprocessing
 
-**Aim:** Tokenize, remove stopwords, stem, lemmatize, POS tag, n-grams, word cloud.
+**Course:** Natural Language Processing (MIT-WPU)
 
-## Folder structure
+Tokenization, stopwords, stemming, lemmatization, POS tagging, n-grams, and word cloud on sample text.
+
+## Structure
 
 ```text
 01-text-preprocessing/
 ├── README.md
 ├── requirements.txt
-├── data/
+├── data/ai_sample.txt
 ├── part_a_single_sentence.py
 └── part_b_document_analysis.py
 ```
