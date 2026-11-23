@@ -1,0 +1,2 @@
+# Pure Python for core scripts; NLTK optional for extensions
+nltk>=3.8
